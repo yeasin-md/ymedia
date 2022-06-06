@@ -1,0 +1,41 @@
+.myvideos-container {
+  margin: 1rem;
+}
+.myvideos-wrapper {
+  border: 1.5px solid lightgray;
+  border-radius: 5px;
+  min-height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 5px;
+  padding: 1rem 8px;
+  justify-content: space-between;
+  .myvideos-thumb {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .myvideos-player {
+    width: 120px;
+    height: 60px;
+  }
+}
+.myvideos-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  span {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.755);
+  }
+}
+.myvideos-edit span {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.637);
+  color: #fff;
+  font-weight: 500;
+  padding: 3px 5px;
+  cursor: pointer;
+  transition: 180ms;
+}
